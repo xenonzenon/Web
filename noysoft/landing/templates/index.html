@@ -1,23 +1,38 @@
 {% load static %}
 <!Doctype html>
 <html>
-
 <head>
   <title>Noysoft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
   <link rel="stylesheet" href="{% static 'noysoft-landing.css' %}">
 </head>
 
 <body>
   <header>
     <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}">
-    <h1>Noysoft</h1>
+    <h1>Welcome to Noysoft</h1>
   </header>
-  <div class="services">
-    <ul id="services">
-      <li><img src="{% static 'images/icons/noysoft-apps-icon.svg' %}"></li>
-      <li><img src="{% static 'images/icons/noysoft-webs-icon.svg' %}"></li>
-      <li><img src="{% static 'images/icons/noysoft-games-icon.svg' %}"></li>
-    </li>
+  <div id="services">
+    <div class="card">
+      <img src="{% static 'images/icons/noysoft-apps-icon.svg' %}">
+      <div class="card-title">
+        <h4><b>App</b><h4>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'images/icons/noysoft-webs-icon.svg' %}">
+      <div class="card-title">
+        <h4><b>Web</b><h4>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'images/icons/noysoft-games-icon.svg' %}">
+      <div class="card-title">
+        <h4><b>Game</b><h4>
+      </div>
+    </div>
   </div>
 </body>
 
