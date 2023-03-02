@@ -1,0 +1,42 @@
+body
+{
+  background-color: #010e1b;
+  color: #b4c4d4;
+}
+
+header
+{
+  padding: 60px;
+  text-align: center;
+}
+
+h1
+{
+  font-size: 80px;
+  display: inline-block;
+  padding: 20px;
+}
+
+#noysoft-landing-logo
+{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  top: 70px;
+}
+
+.services
+{
+  text-align: center;
+}
+
+#services
+{
+  list-style-type: none;
+}
+
+#services li
+{
+  display: inline-block;
+  position: relative;
+}
