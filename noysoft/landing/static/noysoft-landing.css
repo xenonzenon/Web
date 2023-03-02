@@ -43,6 +43,12 @@ h1
   padding: 2px 16px;
 }
 
+#card-id
+{
+  color: #b4c4d4;
+  text-decoration: none;
+}
+
 img
 {
   border-radius: 5px 5px 0 0;
