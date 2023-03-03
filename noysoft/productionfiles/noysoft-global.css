@@ -19,39 +19,3 @@ body::-webkit-scrollbar-thumb
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
-
-.header
-{
-  float: left;
-  width: 100%;
-}
-
-.services
-{
-  float: left;
-  width: 100%;
-}
-
-@media only screen and (max-width: 1024px)
-{
-  h1
-  {
-    font-size: 80px;
-    position: relative;
-    display: inline-block;
-    padding: 30px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 480px)
-{
-  h1
-  {
-    font-size: 40px;
-    position: relative;
-    display: block;
-    padding: 30px;
-    width: 30%;
-  }
-}
