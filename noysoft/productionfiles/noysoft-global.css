@@ -32,20 +32,26 @@ body::-webkit-scrollbar-thumb
   width: 100%;
 }
 
-@media screen and (max-width: 700px)
+@media only screen and (max-width: 1024px)
 {
-  .header
+  h1
   {
+    font-size: 80px;
+    position: relative;
+    display: inline-block;
+    padding: 30px;
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 480px)
+{
   h1
   {
     font-size: 40px;
-    display: inline-block;;
+    position: relative;
+    display: block;
     padding: 30px;
-  }
-  .services
-  {
-    width: 50%;
+    width: 30%;
   }
 }

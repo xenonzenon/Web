@@ -19,9 +19,10 @@ h1
   top: 70px;
 }
 
-#services
+.container
 {
   text-align: center;
+  display: inline-block;
   position: relative;
 }
 .card
