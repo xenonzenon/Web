@@ -25,6 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'landing',
+    'noysoftapp',
+    'noysoftweb',
+    'noysoftgame',
 ]
 
 MIDDLEWARE = [
