@@ -30,16 +30,17 @@ h1
 }
 .card
 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
   transition: 0.3s;
   border-radius: 5px;
   display: inline-block;
   position: relative;
   padding: 10px;
+  background-color: #154c79;
 }
 .card:hover
 {
-  box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 1);
+  box-shadow: 0 12px 32px 0 rgba(1, 1, 1, 1);
 }
 .card-title
 {
@@ -49,7 +50,7 @@ h1
 
 .card-link
 {
-  padding: 10px;
+  padding: 20px;
   color: #b4c4d4;
   text-decoration: none;
 }
@@ -80,6 +81,7 @@ img
     font-size: 30px;
     display: inline-block;
     padding: 10px;
+    margin-top: 50px;
   }
 
   #noysoft-landing-logo
@@ -99,18 +101,19 @@ img
   }
   .card
   {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
     transition: 0.3s;
     border-radius: 5px;
     display: block;
     position: relative;
+    margin-bottom: 10px;
   }
 
   .card-link
   {
+    padding: 5px;
     color: #b4c4d4;
     text-decoration: none;
-    padding: 10px;
   }
   .card-picture img
   {
@@ -119,4 +122,71 @@ img
   }
 
   .card-title{}
+}
+
+@media only screen and (max-width: 1000px)
+{
+  header
+  {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+
+  h1
+  {
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  #noysoft-landing-logo
+  {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 60px;
+  }
+
+  #services
+  {
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 50px;
+  }
+  .card
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 1);
+  }
+  .card-title
+  {
+    text-align: center;
+    padding: 2px 16px;
+  }
+
+  .card-link
+  {
+    padding: 15px;
+    color: #b4c4d4;
+    text-decoration: none;
+  }
+
+  .card-picture img
+  {
+    width: 150px;
+    height: 150px;
+  }
 }

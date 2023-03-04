@@ -2,6 +2,7 @@ body
 {
   background-color: #010e1b;
   color: #b4c4d4;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body::-webkit-scrollbar
