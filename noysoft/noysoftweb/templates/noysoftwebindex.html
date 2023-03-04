@@ -2,13 +2,19 @@
 <!Doctype html>
 <html>
 <head>
-  <title>Noysoft | App</title>
+  <title>Noysoft | Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'noysoft-web.css' %}">
   <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
+  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
 </head>
 
 <body>
-  <h2>This is the web section.</h2>
-  <p><a href="/">Go Back</a></p>
+  <div class="container">
+    <div id="card">
+      <h2>This is the web section.</h2>
+      <p><a href="/">Go Back</a></p>
+    </div>
+  </div>
 </body>
-
 </html>

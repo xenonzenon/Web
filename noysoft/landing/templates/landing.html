@@ -7,22 +7,23 @@
 
   <link rel="stylesheet" href="{% static 'noysoft-landing.css' %}">
   <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
+  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
 </head>
 
 <body>
 
   <header>
-    <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}">
-    <h1>Welcome to Noysoft</h1>
+    <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}" class="img-properties">
+    <h1 class="unselectabletext">Welcome to Noysoft</h1>
   </header>
   <div id="services">
     <a class="card-link" href="noysoftapp">
     <div class="card" id="apps">
       <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-apps-icon.svg' %}">
+        <img src="{% static 'images/icons/noysoft-apps-icon.svg' %}" class="img-properties">
       </div>
       <div class="card-title">
-        <h4><b>App</b><h4>
+        <h4 class="unselectabletext"><b>App</b><h4>
       </div>
     </div>
     </a>
@@ -30,10 +31,10 @@
     <a class="card-link" href="noysoftweb">
     <div class="card" id="webs">
       <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-webs-icon.svg' %}">
+        <img src="{% static 'images/icons/noysoft-webs-icon.svg' %}" class="img-properties">
       </div>
       <div class="card-title">
-        <h4><b>Web</b><h4>
+        <h4 class="unselectabletext"><b>Web</b><h4>
       </div>
     </div>
     </a>
@@ -41,10 +42,10 @@
     <a class="card-link" href="noysoftgame">
     <div class="card" id="games">
       <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-games-icon.svg' %}">
+        <img src="{% static 'images/icons/noysoft-games-icon.svg' %}" class="img-properties">
       </div>
       <div class="card-title">
-        <h4><b>Game</b><h4>
+        <h4 class="unselectabletext"><b>Game</b><h4>
       </div>
     </div>
     </a>
@@ -52,7 +53,7 @@
 
   <footer>
     <div>
-      <p>&copy Noysoft 2023</p>
+      <p class="unselectabletext">&copy Noysoft 2023</p>
     </div>
   </footer>
 </body>
