@@ -26,7 +26,7 @@ h1
   text-align: center;
   display: block;
   position: relative;
-  padding: 60px;
+  padding: 50px;
 }
 .card
 {
@@ -35,7 +35,9 @@ h1
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  padding: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
 }
 .card:hover
 {
@@ -91,6 +93,76 @@ footer
   color: #010e1b;
 }
 
+@media only screen and (max-width: 1000px)
+{
+  header
+  {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+
+  h1
+  {
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  #noysoft-landing-logo
+  {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 60px;
+  }
+
+  #services
+  {
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 40px;
+  }
+  .card
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 200px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 1);
+  }
+  .card-title
+  {
+    text-align: center;
+    padding: 2px 16px;
+  }
+
+  .card-link
+  {
+    padding: 15px;
+    color: #b4c4d4;
+    text-decoration: none;
+  }
+
+  .card-picture img
+  {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
 @media only screen and (max-width: 500px)
 {
   header
@@ -124,19 +196,24 @@ footer
     position: relative;
     padding: 30px;
   }
+
   .card
   {
     box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
     transition: 0.3s;
     border-radius: 5px;
-    display: block;
+    display: inline-block;
     position: relative;
     margin-bottom: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 150px;
+    text-align: center;
   }
 
   .card-link
   {
-    padding: 5px;
+    padding: 10px;
     color: #b4c4d4;
     text-decoration: none;
   }
@@ -147,71 +224,4 @@ footer
   }
 
   .card-title{}
-}
-
-@media only screen and (max-width: 1000px)
-{
-  header
-  {
-    padding: 30px;
-    text-align: center;
-    position: relative;
-    display: block;
-  }
-
-  h1
-  {
-    font-size: 40px;
-    display: inline-block;
-    padding: 15px;
-    margin-top: 50px;
-  }
-
-  #noysoft-landing-logo
-  {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    top: 60px;
-  }
-
-  #services
-  {
-    text-align: center;
-    display: block;
-    position: relative;
-    padding: 50px;
-  }
-  .card
-  {
-    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  .card:hover
-  {
-    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 1);
-  }
-  .card-title
-  {
-    text-align: center;
-    padding: 2px 16px;
-  }
-
-  .card-link
-  {
-    padding: 15px;
-    color: #b4c4d4;
-    text-decoration: none;
-  }
-
-  .card-picture img
-  {
-    width: 150px;
-    height: 150px;
-  }
 }
