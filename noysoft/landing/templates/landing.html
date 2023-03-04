@@ -1,60 +1,63 @@
+{% extends 'landingmaster.html' %}
+
 {% load static %}
-<!Doctype html>
-<html>
-<head>
-  <title>Noysoft</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="{% static 'noysoft-landing.css' %}">
-  <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
-  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
-</head>
+{% block title %}
+  <title>
+    Noysoft
+  </title>
+{% endblock %}
 
-<body>
-
-  <header>
+{% block header %}
+<header>
     <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}" class="img-properties">
     <h1 class="unselectabletext">Welcome to Noysoft</h1>
-  </header>
-  <div id="services">
-    <a class="card-link" href="noysoftapp">
-    <div class="card" id="apps">
-      <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-apps-icon.svg' %}" class="img-properties">
-      </div>
-      <div class="card-title">
-        <h4 class="unselectabletext"><b>App</b><h4>
-      </div>
-    </div>
-    </a>
+</header>
+{% endblock %}
 
-    <a class="card-link" href="noysoftweb">
-    <div class="card" id="webs">
-      <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-webs-icon.svg' %}" class="img-properties">
-      </div>
-      <div class="card-title">
-        <h4 class="unselectabletext"><b>Web</b><h4>
-      </div>
+{% block content %}
+<div id="services">
+  <a class="card-link" href="noysoftapp">
+  <div class="card" id="apps">
+    <div class="card-picture">
+      <img src="{% static 'images/icons/noysoft-apps-icon.svg' %}" class="img-properties">
     </div>
-    </a>
-
-    <a class="card-link" href="noysoftgame">
-    <div class="card" id="games">
-      <div class="card-picture">
-        <img src="{% static 'images/icons/noysoft-games-icon.svg' %}" class="img-properties">
-      </div>
-      <div class="card-title">
-        <h4 class="unselectabletext"><b>Game</b><h4>
-      </div>
+    <div class="card-title">
+      <h4 class="unselectabletext"><b>App</b><h4>
     </div>
-    </a>
   </div>
+  </a>
 
-  <footer>
-    <div>
-      <p class="unselectabletext">&copy Noysoft 2023</p>
+  <a class="card-link" href="noysoftweb">
+  <div class="card" id="webs">
+    <div class="card-picture">
+      <img src="{% static 'images/icons/noysoft-webs-icon.svg' %}" class="img-properties">
     </div>
-  </footer>
+    <div class="card-title">
+      <h4 class="unselectabletext"><b>Web</b><h4>
+    </div>
+  </div>
+  </a>
+
+  <a class="card-link" href="noysoftgame">
+  <div class="card" id="games">
+    <div class="card-picture">
+      <img src="{% static 'images/icons/noysoft-games-icon.svg' %}" class="img-properties">
+    </div>
+    <div class="card-title">
+      <h4 class="unselectabletext"><b>Game</b><h4>
+    </div>
+  </div>
+  </a>
+</div>
+{% endblock %}
+
+{% block footer %}
+<footer>
+  <div>
+    <p class="unselectabletext">&copy Noysoft 2023</p>
+  </div>
+</footer>
+{% endblock %}
 </body>
 </html>

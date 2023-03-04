@@ -1,20 +1,33 @@
-{% load static %}
-<!Doctype html>
-<html>
-<head>
-  <title>Noysoft | Web</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{% static 'noysoft-web.css' %}">
-  <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
-  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
-</head>
+{% extends 'web-master.html' %}
 
-<body>
-  <div class="container">
-    <div id="card">
-      <h2>This is the web section.</h2>
-      <p><a href="/">Go Back</a></p>
-    </div>
+{% load static %}
+
+{% block title %}
+  <title>
+    Noysoft | Web
+  </title>
+{% endblock %}
+
+{% block header %}
+<header>
+    <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}" class="img-properties">
+    <h2 class="unselectabletext">Web Services</h2>
+</header>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="web-card">
+    <h5>This is the web section.</h5>
+    <p><a href="/">Go Back</a></p>
   </div>
-</body>
-</html>
+</div>
+{% endblock %}
+
+{% block footer %}
+<footer>
+  <div>
+    <p class="unselectabletext">&copy Noysoft 2023</p>
+  </div>
+</footer>
+{% endblock %}

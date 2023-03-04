@@ -1,0 +1,31 @@
+{% load static %}
+<!Doctype html>
+<html>
+<head>
+  {% block title %}
+    <title>
+      Noysoft
+    </title>
+  {% endblock %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'noysoft-landing.css' %}">
+  <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
+  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
+</head>
+
+<body>
+
+  {% block header %}
+  {% endblock %}
+
+  {% block content %}
+
+  {% endblock %}
+
+  {% block footer %}
+    <footer>
+
+    </footer>
+  {% endblock %}
+</body>
+</html>

@@ -1,21 +1,33 @@
+{% extends 'app-master.html' %}
+
 {% load static %}
-<!Doctype html>
-<html>
-<head>
-  <title>Noysoft | App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{% static 'noysoft-app.css' %}">
-  <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
-  <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
-</head>
 
-<body>
-  <div class="container">
-    <div id="card">
-      <h2>This is the app section.</h2>
-      <p><a href="/">Go Back</a></p>
-    </div>
+{% block title %}
+  <title>
+    Noysoft | App
+  </title>
+{% endblock %}
+
+{% block header %}
+<header>
+    <img id="noysoft-landing-logo" src="{% static 'images/logos/noysoft.svg' %}" class="img-properties">
+    <h2 class="unselectabletext">App Services</h2>
+</header>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="app-card">
+    <h5>This is the app section.</h5>
+    <p><a href="/">Go Back</a></p>
   </div>
-</body>
+</div>
+{% endblock %}
 
-</html>
+{% block footer %}
+<footer>
+  <div>
+    <p class="unselectabletext">&copy Noysoft 2023</p>
+  </div>
+</footer>
+{% endblock %}

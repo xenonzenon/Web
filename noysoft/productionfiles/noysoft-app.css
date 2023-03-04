@@ -1,18 +1,50 @@
-h2, p
+header
+{
+  text-align: center;
+  padding: 60px;
+  position: relative;
+  display: block;
+}
+
+footer
+{
+  text-align: center;
+  position: relative;
+  display: block;
+  padding: 60px;
+}
+
+h2
+{
+  font-size: 80px;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+
+#noysoft-landing-logo
+{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  top: 70px;
+}
+
+p
 {
   display: block;
   position: relative;
-  color: #010e1b;
+  color: #b4c4d4;
 }
 
 a
 {
   padding: 20px;
-  color: #010e1b;
+  color: #b4c4d4;
   text-decoration: none;
 }
 
-#card
+.app-card
 {
   box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
   transition: 0.3s;
@@ -24,4 +56,103 @@ a
   width: 200px;
   height: 200px;
   background-color: #051494;
+}
+
+@media only screen and (max-width: 500px)
+{
+  header
+  {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+
+  footer
+  {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 20px;
+  }
+
+  h2
+  {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  #noysoft-landing-logo
+  {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 35px;
+  }
+
+  .app-card
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 35px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #051494;
+  }
+}
+
+@media only screen and (max-width: 1000px)
+{
+  header
+  {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    display: block;
+  }
+
+  footer
+  {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 30px;
+  }
+
+  h2
+  {
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  #noysoft-landing-logo
+  {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 60px;
+  }
+
+  .app-card
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 1, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: #051494;
+  }
 }
