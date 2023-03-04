@@ -66,6 +66,14 @@ img
   border-radius: 5px 5px 0 0;
 }
 
+footer
+{
+  text-align: center;
+  position: relative;
+  display: block;
+  padding: 60px;
+}
+
 @media only screen and (max-width: 500px)
 {
   header
