@@ -36,7 +36,6 @@ h1
   display: inline-block;
   position: relative;
   padding: 10px;
-  background-color: #154c79;
 }
 .card:hover
 {
@@ -72,6 +71,24 @@ footer
   position: relative;
   display: block;
   padding: 60px;
+}
+
+#apps
+{
+  background-color: #051494;
+  color: #010e1b;
+}
+
+#webs
+{
+  background-color: #eeeee4;
+  color: #010e1b;
+}
+
+#games
+{
+  background-color: #cb0404;
+  color: #010e1b;
 }
 
 @media only screen and (max-width: 500px)
