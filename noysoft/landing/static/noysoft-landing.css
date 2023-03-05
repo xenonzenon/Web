@@ -143,9 +143,9 @@ footer
     display: inline-block;
     position: relative;
     margin-bottom: 10px;
-    padding: 20px;
-    width: 150px;
-    height: 200px;
+    padding: 10px;
+    width: 100px;
+    height: 150px;
   }
   .card:hover
   {
@@ -166,14 +166,14 @@ footer
 
   .card-picture img
   {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 5px;
   }
 }
 
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 550px)
 {
   header
   {
@@ -224,8 +224,8 @@ footer
     position: relative;
     margin-bottom: 10px;
     padding: 10px;
-    width: 150px;
-    height: 160px;
+    width: 200px;
+    height: 170px;
     text-align: center;
   }
 
@@ -237,8 +237,8 @@ footer
   }
   .card-picture img
   {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 5px;
   }
 
