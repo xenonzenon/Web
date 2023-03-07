@@ -18,9 +18,24 @@
 {% block content %}
 <div class="container">
   <div class="app-card">
-    <h5>This is the app section.</h5>
-    <p><a href="/">Go Back</a></p>
+    <div class="app-image">
+      <img src="{% static 'images/logo/app-android-logo.svg' %}" class="img-properties">
+    </div>
+    <div class="app-title">
+      <h5>Android</h5>
+    </div>
   </div>
+  <div class="app-card">
+    <div class="app-image">
+      <img src="{% static 'images/logo/app-windows-logo.svg' %}" class="img-properties">
+    </div>
+    <div class="app-title">
+      <h5>Windows</h5>
+    </div>
+  </div>
+</div>
+<div class="container back">
+  <p><a href="/">Go Back</a></p>
 </div>
 {% endblock %}
 

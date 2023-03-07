@@ -54,8 +54,21 @@ a
   padding: 60px;
   text-align: center;
   width: 200px;
-  height: 200px;
+  height: 220px;
   background-color: #051494;
+  margin-bottom: 10px;
+}
+
+.app-image img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.back p a
+{
+  color: #e28743;
 }
 
 @media only screen and (max-width: 1000px)
@@ -102,9 +115,16 @@ a
     padding: 50px;
     text-align: center;
     width: 150px;
-    height: 150px;
+    height: 170px;
     background-color: #051494;
   }
+  .app-image img
+  {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+  }
+
 }
 
 @media only screen and (max-width: 500px)
@@ -152,7 +172,7 @@ a
     padding: 35px;
     text-align: center;
     width: 100px;
-    height: 100px;
+    height: 120px;
     background-color: #051494;
   }
 
@@ -169,4 +189,12 @@ a
     color: #b4c4d4;
     text-decoration: none;
   }
+
+  .app-image img
+  {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }
+
 }
