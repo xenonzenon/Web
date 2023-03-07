@@ -13,12 +13,13 @@ h1
   padding: 20px;
 }
 
-#noysoft-landing-logo
+#noysoft_landing_logo
 {
   position: relative;
   height: 200px;
   width: 200px;
   top: 70px;
+  cursor: pointer;
 }
 
 #services
@@ -56,7 +57,7 @@ h1
   text-decoration: none;
 }
 
-.card-picture img
+.landing-image img
 {
   width: 200px;
   height: 200px;
@@ -79,19 +80,19 @@ footer
 #apps
 {
   background-color: #051494;
-  color: #010e1b;
+  color: #e28743;
 }
 
 #webs
 {
   background-color: #eeeee4;
-  color: #010e1b;
+  color: #e28743;
 }
 
 #games
 {
   background-color: #cb0404;
-  color: #010e1b;
+  color: #e28743;
 }
 
 @media only screen and (max-width: 1000px)
@@ -120,12 +121,13 @@ footer
     margin-top: 50px;
   }
 
-  #noysoft-landing-logo
+  #noysoft_landing_logo
   {
     position: relative;
     height: 150px;
     width: 150px;
     top: 60px;
+    cursor: pointer;
   }
 
   #services
@@ -164,7 +166,7 @@ footer
     text-decoration: none;
   }
 
-  .card-picture img
+  .landing-image img
   {
     width: 100px;
     height: 100px;
@@ -199,12 +201,13 @@ footer
     margin-top: 50px;
   }
 
-  #noysoft-landing-logo
+  #noysoft_landing_logo
   {
     position: relative;
     height: 100px;
     width: 100px;
     top: 35px;
+    cursor: pointer;
   }
 
   #services
@@ -235,7 +238,7 @@ footer
     color: #b4c4d4;
     text-decoration: none;
   }
-  .card-picture img
+  .landing-image img
   {
     width: 120px;
     height: 120px;

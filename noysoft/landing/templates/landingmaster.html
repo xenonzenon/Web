@@ -11,9 +11,12 @@
   <link rel="stylesheet" href="{% static 'noysoft-landing.css' %}">
   <link rel="stylesheet" href="{% static 'noysoft-global.css' %}">
   <link rel="icon" href="{% static 'favicons/noysoft-16x16.png' %}">
+
+  <script type="text/javascript" src="{% static 'jquery.js' %}"></script>
+  <script type="text/javascript" src="{% static 'noysoft-global-animation.js' %}"></script>
 </head>
 
-<body>
+<body onload="animation()">
 
   {% block header %}
   {% endblock %}
